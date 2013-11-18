@@ -30,16 +30,19 @@ list_c()
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 sort_list(L) ->
-    throw_not_implemented().
+    sort(L).
 
 sort_and_merge_no_duplicates(L1, L2) ->
-    throw_not_implemented().
+    sort(L1)
+    sort(L2)
+    umerge(L1,L2).
 
 reverse_sort_list(L) ->
-    throw_not_implemented().
+    sort(L)
+    reverse(L).
 
 sum_list_elements(L) ->
-    throw_not_implemented().
+    sum(L).
 
 multiply_list_elements_by_n(L, N) ->
     throw_not_implemented().

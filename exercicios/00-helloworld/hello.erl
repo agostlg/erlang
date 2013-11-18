@@ -9,8 +9,7 @@
 -export([hello_world/0]).
 
 % implementacao
-get_greeting() -> 
-"hello, world\n".
+get_greeting() -> throw("ERRO: nao implementado\n").
 hello_world()  -> io:fwrite(get_greeting()).
 
 % testes
